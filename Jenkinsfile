@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
     DOCKERHUB_CREDENTIALS = 'dockerhub-creds'  // set this in Jenkins credentials
-    DOCKER_IMAGE = "yourdockerhubusername/lab-flask"
+    DOCKER_IMAGE = "aaryxn/lab-flask"
     }
     stages {
     stage('Checkout') {
