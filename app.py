@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello — lab Assessment Flask app running!"
+    return "Hello — lab Assessment Flask app running! & Today is Monday"
 
 @app.route('/add', methods=['POST'])
 def add():
